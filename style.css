@@ -2,7 +2,7 @@
 margin : 0;
 padding : 0;
 box-sizing : border-box;
-font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family : sans-serif;
 }
 
 html, body{
@@ -19,13 +19,14 @@ width : 100%;
 nav{
     height: 67px;
     width: 100%;
+    border-bottom: rgb(151, 144, 144) solid 1px;
    
 }
 
 .nav{
-    height: 100%;
+    height: 67px;
     width: 1100px;
-    background: red;
+    /* background: red; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -35,15 +36,20 @@ nav{
 .nav-left{
     height: 100%;
     width: 40%;
+    display: flex;
+    align-items: center;
+    /* background: #000; */
 }
 
 .nav-left img{
-    width: 32vw;
+    width:129px; 
+    height: 17px;
 }
 
 .nav-right{
   height: 100%;
   width: 50%;
+  /* background: blue; */
 }
 
 .nav-right ul{
@@ -52,5 +58,34 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
+}
+
+.nav-right ul li{
+    padding: 20px;
+    font-size: 1rem;
+    color: rgb(151, 144, 144);
+}
+
+.nav-right ul li i{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+
+
+@media (max-width:1100px) {
+    .nav{
+        width: 96vw;
+    }
+}
+
+@media (max-width:950px) {
+    .list{
+        display: none;
+    }
+
+    .menu-logo{
+        display: block;
+    }
 }
