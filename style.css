@@ -210,13 +210,43 @@ section{
 .section-3{
     width: 1100px;
     height: 170px;
-    background: red;
+    /* background: red; */
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
+.inner-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part-2{
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.part-2 div{
+    display: flex;
+    align-items: center;
+}
+
+.part-2 div img{
+    height: 80px;
+    width: 120px;
+}
+
+.part-1{
+    height: 140px;
+}
+
+.part-1 h2{
+    font-size: 33px;
+    margin-bottom:10px;
+}
 
 @media (max-width:1100px) {
     .nav{
