@@ -29,7 +29,6 @@ nav{
 .nav{
     height: 67px;
     width: 1100px;
-    /* background: red; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -41,7 +40,6 @@ nav{
     width: 40%;
     display: flex;
     align-items: center;
-    /* background: #000; */
 }
 
 .nav-left img{
@@ -52,7 +50,6 @@ nav{
 .nav-right{
   height: 100%;
   width: 50%;
-  /* background: blue; */
 }
 
 .nav-right ul{
@@ -81,13 +78,11 @@ nav{
 section{
     height: calc(100vh - 67px);
     width: 100%;
-    /* background-color: black; */
 }
 
 .section-1{
     height:100%;
     width: 1100px;
-    /* background-color: red; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -129,7 +124,6 @@ section{
 .section-2{
     width: 1100px;
     height: 679px;
-    /* background: black; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -139,7 +133,6 @@ section{
 .sec-1{
     height: 677px;
     width: 432px;
-    /* background: royalblue; */
     display: flex;
     flex-direction: column;
 }
@@ -195,7 +188,6 @@ section{
 .press-img{
     width: 100%;
     height: 40px;
-    /* background: red; */
     display: flex;
     align-items: center;
     margin-top: 100px;
@@ -210,7 +202,6 @@ section{
 .section-3{
     width: 1100px;
     height: 170px;
-    /* background: red; */
     margin: 0 auto;
     margin-top: 80px;
     display: flex;
@@ -286,8 +277,6 @@ section{
     }
 
     .section-1 img{
-        /* width:871px;
-        height: 366px; */
         width: 90vw;
         height: 48vw;
     }
